@@ -1,7 +1,8 @@
 /*
-09/04/2026 Axel Armando Belin Castorena - 355651
-Ingeniería en Computación Inteligente 2°A - UAA
-Objetivo del programa: Mediante un menú, permitir la modificación y creación de pilas.
+| 09/04/2026 || 29/04/2026 |
+Axel Armando Belin Castorena - 355651
+Intelligent Computing Engineering 2°A - UAA
+Program objective: Through a menu, allow the modification and creation of stacks.
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -79,7 +80,7 @@ void VaciarPila(){
 
 int main() {
 	int op, x;
-	setlocale(LC_ALL,"");
+	setlocale(LC_ALL,"Spanish");
 	printf("===================PILA=======================\n");
 	do{
 		system("cls");
