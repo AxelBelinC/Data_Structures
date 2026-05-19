@@ -112,7 +112,7 @@ void ShowStack(){
 }
 
 void ClearStack(){
-	struct node *temp;
+	struct node *temp = NULL;
 	if (head == NULL){
 		printf("\nEmpty Stack. Nothing to clear.\n");
 		return;
