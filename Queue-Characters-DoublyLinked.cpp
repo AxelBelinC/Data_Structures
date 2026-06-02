@@ -17,8 +17,8 @@ struct node{
     node *prev;
 } *head = nullptr, *tail = nullptr;
 
-void Enqueue (string x);
-void Dequeue ();
+void Enqueue(string x);
+void Dequeue();
 void ShowQueue();
 void ClearQueue();
 
